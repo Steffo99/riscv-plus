@@ -1,15 +1,25 @@
 {
     "name": "riscv-plus",
-    "displayName": "RISC-V Assembly",
-    "description": "Alpha for RISC-V Syntax Highlighting.",
+    "version": "0.0.2",
     "publisher": "steffo",
-    "version": "0.0.1",
     "engines": {
         "vscode": "^1.33.0"
     },
+    "license": "MIT",
+    "displayName": "RISC-V Assembly",
+    "description": "Alpha for RISC-V Syntax Highlighting.",
     "categories": [
         "Programming Languages"
     ],
+    "keywords": ["riscv", "assembly"],
+    "preview": true,
+    "bugs": {
+        "url": "https://github.com/Steffo99/riscv-plus/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Steffo99/riscv-plus"
+    },   
     "contributes": {
         "languages": [{
             "id": "riscv",
