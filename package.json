@@ -1,0 +1,26 @@
+{
+    "name": "riscv-plus",
+    "displayName": "RISC-V Assembly",
+    "description": "Alpha for RISC-V Syntax Highlighting.",
+    "publisher": "steffo",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "riscv",
+            "aliases": ["RISC-V Assembly", "riscv"],
+            "extensions": [".riscv"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "riscv",
+            "scopeName": "source.riscv",
+            "path": "./syntaxes/riscv.tmLanguage.json"
+        }]
+    }
+}

@@ -1,0 +1,105 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "RISC-V Assembly",
+	"patterns": [
+		{
+			"include": "#structure"
+		},
+		{
+			"include": "#entities"
+		}
+	],
+	"repository": {
+		"structure": {
+			"patterns": [
+				{
+					"match": "\\b([A-Za-z0-9_]+)(:)",
+					"name": "meta.line.label.riscv",
+					"captures": {
+						"1": {
+							"name": "keyword.name.tag.riscv"
+						},
+						"2": {
+							"name": "punctuation.colon.riscv"
+						}
+					}
+				},
+				{
+					"match": "\\b([A-Za-z]+)\\s+([A-Za-z0-9_-]+)(,)\\s+([A-Za-z0-9_-]+)(\\()([A-Za-z0-9_-]+)(\\))",
+					"name": "meta.line.instruction.parenthesis.riscv",
+					"captures": {
+						"1": {
+							"name": "entity.name.function.riscv"
+						},
+						"2": {
+							"name": "variable.parameter.riscv"
+						},
+						"3": {
+							"name": "punctuation.comma.riscv"
+						},
+						"4": {
+							"name": "variable.parameter.riscv"
+						},
+						"5": {
+							"name": "punctuation.parenthesis.open.riscv"
+						},
+						"6": {
+							"name": "variable.parameter.riscv"
+						},
+						"7": {
+							"name": "punctuation.parenthesis.close.riscv"
+						}
+					}
+				},
+				{
+					"match": "\\b([A-Za-z]+)(?:\\s+([A-Za-z0-9_-]+))?(?:(,)\\s+([A-Za-z0-9_-]+))?(?:(,)\\s+([A-Za-z0-9_-]+))?\\b",
+					"name": "meta.line.instruction.riscv",
+					"captures": {
+						"1": {
+							"name": "entity.name.function.riscv"
+						},
+						"2": {
+							"name": "variable.parameter.riscv"
+						},
+						"3": {
+							"name": "punctuation.comma.riscv"
+						},
+						"4": {
+							"name": "variable.parameter.riscv"
+						},
+						"5": {
+							"name": "punctuation.comma.riscv"
+						},
+						"6": {
+							"name": "variable.parameter.riscv"
+						}
+					}
+				}
+			]
+		},
+		"entities": {
+			"patterns": [
+				{
+					"begin": "\"",
+					"end": "\"",
+					"name": "string.quoted.double.riscv",
+					"patterns": [
+						{
+							"match": "\\\\.",
+							"name": "constant.character.escape.riscv"
+						}
+					]
+				},
+				{
+					"match": "#.+",
+					"name": "comment.line.number-sign.riscv"
+				},
+				{
+					"match": "\\.[A-Za-z0-9_-]+",
+					"name": "constant.language.riscv"
+				}
+			]
+		}
+	},
+	"scopeName": "source.riscv"
+}
