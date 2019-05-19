@@ -91,7 +91,7 @@
 					]
 				},
 				{
-					"match": "#.+",
+					"match": "#.*",
 					"name": "comment.line.number-sign.riscv"
 				},
 				{
