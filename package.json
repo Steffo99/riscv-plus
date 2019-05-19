@@ -1,6 +1,6 @@
 {
     "name": "riscv-plus",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "steffo",
     "engines": {
         "vscode": "^1.33.0"
