@@ -25,7 +25,7 @@
 					}
 				},
 				{
-					"match": "\\b([A-Za-z]+)\\s+([A-Za-z0-9_-]+)(,)\\s+([A-Za-z0-9_-]+)(\\()([A-Za-z0-9_-]+)(\\))",
+					"match": "\\b([A-Za-z]+)\\s*([A-Za-z0-9_-]+)(,)\\s*([A-Za-z0-9_-]+)(\\()([A-Za-z0-9_-]+)(\\))",
 					"name": "meta.line.instruction.parenthesis.riscv",
 					"captures": {
 						"1": {
@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"match": "\\b([A-Za-z]+)(?:\\s+([A-Za-z0-9_-]+))?(?:(,)\\s+([A-Za-z0-9_-]+))?(?:(,)\\s+([A-Za-z0-9_-]+))?\\b",
+					"match": "\\b([A-Za-z]+)(?:\\s*([A-Za-z0-9_-]+))?(?:(,)\\s*([A-Za-z0-9_-]+))?(?:(,)\\s*([A-Za-z0-9_-]+))?\\b",
 					"name": "meta.line.instruction.riscv",
 					"captures": {
 						"1": {
