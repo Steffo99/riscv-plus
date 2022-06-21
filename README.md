@@ -1,5 +1,5 @@
 # RISC-V Assembly
 
-Really basic RISC-V syntax highlighting for VSC.
+_RISC-V syntax highlighting for Visual Studio Code_
 
-Propose improvements and report bugs [on GitHub](https://github.com/Steffo99/riscv-plus/issues).
+\[ [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=steffo.riscv-plus) \]
