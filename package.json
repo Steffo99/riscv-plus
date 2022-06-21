@@ -2,31 +2,32 @@
     "name": "riscv-plus",
     "publisher": "steffo",
     "icon": "icon.png",
-    "version": "0.0.3",
+    "displayName": "RISC-V Plus",
+    "description": "RISC-V Syntax Highlighting.",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Steffo99/riscv-plus/issues",
+        "email": "me@steffo.eu"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Steffo99/riscv-plus"
+    },
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.33.0"
     },
-    "license": "MIT",
-    "displayName": "RISC-V Plus",
-    "description": "Alpha for RISC-V Syntax Highlighting.",
     "categories": [
         "Programming Languages"
     ],
     "keywords": ["riscv", "assembly"],
     "preview": true,
-    "bugs": {
-        "url": "https://github.com/Steffo99/riscv-plus/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Steffo99/riscv-plus"
-    },   
     "contributes": {
         "languages": [{
             "id": "riscv",
             "aliases": ["RISC-V Assembly", "riscv"],
             "extensions": [".riscv"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./configurations/riscv.configuration.json"
         }],
         "grammars": [{
             "language": "riscv",
