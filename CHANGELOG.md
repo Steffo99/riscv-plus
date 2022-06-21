@@ -1,8 +1,9 @@
 # Change Log
 
-All notable changes to the "riscv-plus" extension will be documented in this file.
+## [0.1.0] - 2022-06-21
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- :boom: Shuffle some files around, trying to improve a bit the extension.
+- :spiral_notepad: Be honest in the README
 
 ## [0.0.1] - 2019-05-13
 
