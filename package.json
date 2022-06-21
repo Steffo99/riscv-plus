@@ -1,12 +1,13 @@
 {
     "name": "riscv-plus",
-    "version": "0.0.3",
     "publisher": "steffo",
+    "icon": "icon.png",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.33.0"
     },
     "license": "MIT",
-    "displayName": "RISC-V Assembly",
+    "displayName": "RISC-V Plus",
     "description": "Alpha for RISC-V Syntax Highlighting.",
     "categories": [
         "Programming Languages"

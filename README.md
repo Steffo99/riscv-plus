@@ -1,4 +1,4 @@
-# RISC-V Assembly
+# RISC-V Plus
 
 _RISC-V syntax highlighting for Visual Studio Code_
 
