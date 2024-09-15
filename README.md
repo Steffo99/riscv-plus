@@ -1,8 +1,18 @@
+<div align="center">
+
 # RISC-V Plus
 
-_RISC-V syntax highlighting for Visual Studio Code_
+RISC-V syntax highlighting for Visual Studio Code
 
-\[ [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=steffo.riscv-plus) \]
+</div>
 
-> :warning: This extension was written when I had no idea of how a language parser worked.  
+> [!Warning]
+>
+> This extension was written when I had no idea of how a language parser worked.  
 > It probably needs a complete rewrite...
+
+## Links
+
+[![On the Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/d/steffo.riscv-plus?label=visual+studio+marketplace)](https://marketplace.visualstudio.com/items?itemName=steffo.riscv-plus)
+ 
+[![On OpenVSX](https://img.shields.io/open-vsx/dt/steffo/riscv-plus?label=open+vsx+registry)](https://open-vsx.org/extension/steffo/steffo/riscv-plus)
