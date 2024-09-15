@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="icon.png" width="128" height="128" alt="">
+
 # RISC-V Plus
 
 RISC-V syntax highlighting for Visual Studio Code
